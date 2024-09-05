@@ -2,6 +2,8 @@
 #include "mcc_generated_files/system/system.h"
 
 // main branch
+
+// main test1
 void UART1_sendString(const char *str) {
     while (*str) {
         while (!(UART1_IsTxReady()));
