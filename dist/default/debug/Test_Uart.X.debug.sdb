@@ -1,0 +1,403 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F27Q10 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"4 D:\_GITHUB_NAYYAR\Test_Uart.X\main.c
+[v _UART1_sendString UART1_sendString `(v  1 e 1 0 ]
+"12
+[v _main main `(i  1 e 2 0 ]
+"39 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"102
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"111
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"115
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"128
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"137
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"141
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"154
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"163
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"167
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"119
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"38 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"94 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"115
+[v _EUSART1_Deinitialize EUSART1_Deinitialize `(v  1 e 1 0 ]
+"136
+[v _EUSART1_TransmitEnable EUSART1_TransmitEnable `(v  1 e 1 0 ]
+"141
+[v _EUSART1_TransmitDisable EUSART1_TransmitDisable `(v  1 e 1 0 ]
+"166
+[v _EUSART1_AutoBaudSet EUSART1_AutoBaudSet `(v  1 e 1 0 ]
+"178
+[v _EUSART1_AutoBaudQuery EUSART1_AutoBaudQuery `(a  1 e 1 0 ]
+"193
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+"198
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+"203
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+"208
+[v _EUSART1_ErrorGet EUSART1_ErrorGet `(ui  1 e 2 0 ]
+"213
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"235
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"240
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+"245
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+"252
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"260
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"13660 C:/Users/Nayyar/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f27q10.h
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @3760 ]
+[s S602 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"15230
+[u S609 . 1 `S602 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES609  1 e 1 @3773 ]
+[s S555 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"15647
+[u S562 . 1 `S555 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES562  1 e 1 @3781 ]
+[s S329 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"15779
+[s S338 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S344 . 1 `S329 1 . 1 0 `S338 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES344  1 e 1 @3784 ]
+"16627
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16767
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16919
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16970
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17028
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"18073
+[v _RB4PPS RB4PPS `VEuc  1 e 1 @3822 ]
+"18601
+[v _IOCAF IOCAF `VEuc  1 e 1 @3845 ]
+"18663
+[v _IOCAN IOCAN `VEuc  1 e 1 @3846 ]
+"18725
+[v _IOCAP IOCAP `VEuc  1 e 1 @3847 ]
+"18787
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"18849
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"18911
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"18973
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19035
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19097
+[v _IOCBF IOCBF `VEuc  1 e 1 @3853 ]
+"19159
+[v _IOCBN IOCBN `VEuc  1 e 1 @3854 ]
+"19221
+[v _IOCBP IOCBP `VEuc  1 e 1 @3855 ]
+"19283
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19345
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19407
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19469
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"19531
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"19593
+[v _IOCCF IOCCF `VEuc  1 e 1 @3861 ]
+"19655
+[v _IOCCN IOCCN `VEuc  1 e 1 @3862 ]
+"19717
+[v _IOCCP IOCCP `VEuc  1 e 1 @3863 ]
+"19779
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"19841
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"19903
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"19965
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20027
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20089
+[v _IOCEF IOCEF `VEuc  1 e 1 @3874 ]
+"20110
+[v _IOCEN IOCEN `VEuc  1 e 1 @3875 ]
+"20131
+[v _IOCEP IOCEP `VEuc  1 e 1 @3876 ]
+"20152
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"20173
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"26566
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+"26628
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"26690
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+"26752
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"26874
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"26996
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28358
+[v _RC1REG RC1REG `VEuc  1 e 1 @3992 ]
+"28412
+[v _TX1REG TX1REG `VEuc  1 e 1 @3993 ]
+"28478
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3994 ]
+"28532
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3995 ]
+"28586
+[v _RC1STA RC1STA `VEuc  1 e 1 @3996 ]
+[s S266 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"28612
+[u S275 . 1 `S266 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES275  1 e 1 @3996 ]
+"28766
+[v _TX1STA TX1STA `VEuc  1 e 1 @3997 ]
+[s S287 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"28792
+[u S296 . 1 `S287 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES296  1 e 1 @3997 ]
+"28946
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3998 ]
+[s S308 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"28980
+[u S317 . 1 `S308 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES317  1 e 1 @3998 ]
+[s S518 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"36963
+[s S526 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36963
+[s S530 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36963
+[u S534 . 1 `S518 1 . 1 0 `S526 1 . 1 0 `S530 1 . 1 0 ]
+"36963
+"36963
+[v _INTCONbits INTCONbits `VES534  1 e 1 @4082 ]
+"38 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S241 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"77 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/uart/src/eusart1.c
+[u S246 . 2 `S241 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES246  1 s 2 eusart1RxLastError ]
+"83
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 s 3 EUSART1_FramingErrorHandler ]
+"84
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 s 3 EUSART1_OverrunErrorHandler ]
+"12 D:\_GITHUB_NAYYAR\Test_Uart.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"20
+} 0
+"4
+[v _UART1_sendString UART1_sendString `(v  1 e 1 0 ]
+{
+[v UART1_sendString@str str `*.31Cuc  1 p 1 1 ]
+"10
+} 0
+"235 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+"237
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"238
+} 0
+"198
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+{
+"201
+} 0
+"203
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+{
+"206
+} 0
+"38 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"44
+} 0
+"38 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"42 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"163
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"165
+} 0
+"137
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"139
+} 0
+"111
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"113
+} 0
+"94 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"260
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"266
+} 0
+"252
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"258
+} 0
+"39 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"80 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"91
+} 0
+"119 D:\_GITHUB_NAYYAR\Test_Uart.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"121
+} 0
