@@ -1,7 +1,8 @@
 #pragma warning disable 520,2053
 #include "mcc_generated_files/system/system.h"
 
-// main branch
+// dev branch
+
 void UART1_sendString(const char *str) {
     while (*str) {
         while (!(UART1_IsTxReady()));
